@@ -1,0 +1,15 @@
+model,calculusType,cell,alpha_0,beta_0,r_nucleus,D_t,radiation_type,particle,meanEnergy,meanEnergy_sigma,meanLET,meanLET_sigma,LETd,LETd_sigma,nFractions,timeSpacing,fracDeliveryTime,alpha,beta,alpha_sigma,beta_sigma
+LEMIII,rapidLEM_Russo2011,HSG,0.312,0.073,4.611,30,Monoenergetic,ParticleFieldEM1.mixedField,1146.9,0,0.0268538,0,0.0268538,0,1,0,0,0.879092,0.0604974,0,0
+LEMIII,rapidLEM_Russo2011,HSG,0.312,0.073,4.611,30,Monoenergetic,ParticleFieldEM2.mixedField,1091.86,0,0.0278493,0,0.0278493,0,1,0,0,0.905814,0.0598092,0,0
+LEMIII,rapidLEM_Russo2011,HSG,0.312,0.073,4.611,30,Monoenergetic,ParticleFieldEM3.mixedField,1034.6,0,0.0290523,0,0.0290523,0,1,0,0,0.931078,0.059116,0,0
+LEMIII,rapidLEM_Russo2011,HSG,0.312,0.073,4.611,30,Monoenergetic,ParticleFieldEM4.mixedField,974.936,0,0.0304134,0,0.0304134,0,1,0,0,0.959556,0.0583221,0,0
+LEMIII,rapidLEM_Russo2011,HSG,0.312,0.073,4.611,30,Monoenergetic,ParticleFieldEM5.mixedField,915.581,0,0.0319156,0,0.0319156,0,1,0,0,0.986088,0.0575369,0,0
+LEMIII,rapidLEM_Russo2011,HSG,0.312,0.073,4.611,30,Monoenergetic,ParticleFieldEM6.mixedField,853.08,0,0.0337727,0,0.0337727,0,1,0,0,1.02459,0.0564272,0,0
+LEMIII,rapidLEM_Russo2011,HSG,0.312,0.073,4.611,30,Monoenergetic,ParticleFieldEM7.mixedField,786.744,0,0.035952,0,0.035952,0,1,0,0,1.06007,0.0553096,0,0
+LEMIII,rapidLEM_Russo2011,HSG,0.312,0.073,4.611,30,Monoenergetic,ParticleFieldEM8.mixedField,715.767,0,0.0387638,0,0.0387638,0,1,0,0,1.10966,0.053751,0,0
+LEMIII,rapidLEM_Russo2011,HSG,0.312,0.073,4.611,30,Monoenergetic,ParticleFieldEM9.mixedField,633.345,0,0.0427097,0,0.0427097,0,1,0,0,1.17437,0.0516088,0,0
+LEMIII,rapidLEM_Russo2011,HSG,0.312,0.073,4.611,30,Spectrum,ParticleFieldEM10.mixedField,551.924,0,0.0476728,0,0.0476728,0,1,0,0,1.2465,0.0490338,0,0
+LEMIII,rapidLEM_Russo2011,HSG,0.312,0.073,4.611,30,Monoenergetic,ParticleFieldEM11.mixedField,452.338,0,0.0560532,0,0.0560532,0,1,0,0,1.36553,0.0445541,0,0
+LEMIII,rapidLEM_Russo2011,HSG,0.312,0.073,4.611,30,Monoenergetic,ParticleFieldEM12.mixedField,329.681,0,0.0715018,0,0.0715018,0,1,0,0,1.54823,0.0366532,0,0
+LEMIII,rapidLEM_Russo2011,HSG,0.312,0.073,4.611,30,Monoenergetic,ParticleFieldEM13.mixedField,83.5223,0,0.231216,0,0.231216,0,1,0,0,1.70937,0,0,0
+LEMIII,rapidLEM_Russo2011,HSG,0.312,0.073,4.611,30,Spectrum,ParticleFieldEM14.mixedField,11.4971,0,0.760218,0,0.760218,0,1,0,0,0.548588,0,0,0
