@@ -1,0 +1,71 @@
+#
+# Macro file for the initialization phase of "exampleN02.cc"
+# when runing in interactive mode
+#
+# Sets some default verbose
+#
+/control/verbose 2
+/run/verbose 2
+
+
+#/run/numberOfThreads 6
+
+#
+# create empty scene
+#
+/vis/scene/create
+#
+# Create a scene handler for a specific graphics system
+# (Edit the next line(s) to choose another graphic system)
+#
+/vis/open OGL 
+#
+####/vis/open DAWNFILE
+#
+# draw scene
+#
+/vis/drawVolume
+/vis/viewer/set/viewpointThetaPhi 30 120 deg
+/vis/viewer/zoom 1.
+/vis/viewer/flush
+#
+# for drawing the tracks
+# (if too many tracks cause core dump => storeTrajectory 0)
+/tracking/storeTrajectory 1
+#/vis/scene/add/trajectories
+# (if you prefer refreshing each event, comment out next line)
+#/vis/scene/endOfEventAction accumulate
+#
+# Interface
+#/gui/addMenu part Particule
+#/gui/addButton part C12 "/CS/beam/setParticle C12"
+#/gui/addButton part alpha "/CS/beam/setParticle alpha"
+#/gui/addButton part Proton "/CS/beam/setParticle proton"
+#/gui/addButton part Electron "/CS/beam/setParticle e-"
+#/gui/addButton part Gamma "/CS/beam/setParticle gamma"
+#/gui/addMenu nrj Energie
+#/gui/addButton nrj "  1 MeV" "/CS/beam/setEnergy 1 MeV"
+#/gui/addButton nrj "  5 MeV" "/CS/beam/setEnergy 5 MeV"
+#/gui/addButton nrj " 10 MeV" "/CS/beam/setEnergy 10 MeV"
+#/gui/addButton nrj " 15 MeV" "/CS/beam/setEnergy 15 MeV"
+#/gui/addButton nrj " 20 MeV" "/CS/beam/setEnergy 20 MeV"
+#/gui/addButton nrj " 30 MeV" "/CS/beam/setEnergy 30 MeV"
+#/gui/addButton nrj " 50 MeV" "/CS/beam/setEnergy 50 MeV"
+#/gui/addButton nrj "100 MeV" "/CS/beam/setEnergy 100 MeV"
+#/gui/addButton nrj "200 MeV" "/CS/beam/setEnergy 200 MeV"
+#/gui/addMenu run Run
+#/gui/addButton run "  1 000 evts" "/CS/run 1000"
+#/gui/addButton run "  5 000 evts" "/CS/run 5000"
+#/gui/addButton run " 10 000 evts" "/CS/run 10000"
+#/gui/addButton run " 20 000 evts" "/CS/run 20000"
+#/gui/addButton run " 50 000 evts" "/CS/run 50000"
+#/gui/addButton run "100 000 evts" "/CS/run 100000"
+
+# Caracteristiques de depart
+#/gun/particle e-
+#/gun/energy 5 MeV
+/CS/beam/setParticle C12
+/CS/beam/setEnergy 100 MeV
+
+/run/printProgress 1
+/CS/run 1000000
